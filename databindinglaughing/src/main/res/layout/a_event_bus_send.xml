@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewmodel"
+            type="java.lang.String"/>
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener"/>
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送数据页面"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/bt_event_bus_send_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{click}"
+            android:text="主线程发送数据"/>
+
+        <Button
+            android:id="@+id/bt_event_bus_send_sticky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{click}"
+            android:text="接收粘性数据"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="显示结果"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_event_bus_send_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</layout>

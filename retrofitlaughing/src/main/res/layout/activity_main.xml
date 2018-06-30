@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.laughing.android.retrofitlaughing.activity.MainActivity">
+
+    <Button
+        android:id="@+id/bt_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get请求"/>
+
+    <Button
+        android:id="@+id/bt_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post请求"/>
+
+    <Button
+        android:id="@+id/bt_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="url注解"/>
+
+    <Button
+        android:id="@+id/bt_retrofit_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt"/>
+
+    <Button
+        android:id="@+id/bt_retrofit_get_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_cancle"/>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <!--rxjava-->
+    <Button
+        android:id="@+id/bt_rxjava_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rxjava_get请求"/>
+
+    <Button
+        android:id="@+id/bt_rxjava_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rxjava_post请求"/>
+
+    <Button
+        android:id="@+id/bt_rxjava_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rxjava_url注解"/>
+
+    <Button
+        android:id="@+id/bt_rxjava_remove_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="统一未剥离BaseBean"/>
+
+    <Button
+        android:id="@+id/bt_rxjava_no_wrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="统一剥离BaseBean"/>
+
+
+</LinearLayout>

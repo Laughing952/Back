@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="12dp"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cloth_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textColor="#000"
+        android:textSize="@dimen/sp_16"/>
+
+    <ImageView
+        android:id="@+id/cloth_ph"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/cloth_pr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="价格是100元"
+        android:textColor="#000"
+        android:textSize="@dimen/sp_16"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kotlin</string>
+    <string name="title_name">标题</string>
+    <string name="title_save">保存</string>
+</resources>

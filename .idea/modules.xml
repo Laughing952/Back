@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Back.iml" filepath="$PROJECT_DIR$/Back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheckBoxRecyclerView/CheckBoxRecyclerView.iml" filepath="$PROJECT_DIR$/CheckBoxRecyclerView/CheckBoxRecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLib/JavaLib.iml" filepath="$PROJECT_DIR$/JavaLib/JavaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/countdownlauhging/countdownlauhging.iml" filepath="$PROJECT_DIR$/countdownlauhging/countdownlauhging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databindinglaughing/databindinglaughing.iml" filepath="$PROJECT_DIR$/databindinglaughing/databindinglaughing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin/kotlin.iml" filepath="$PROJECT_DIR$/kotlin/kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvplaughing/mvplaughing.iml" filepath="$PROJECT_DIR$/mvplaughing/mvplaughing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/net/net.iml" filepath="$PROJECT_DIR$/net/net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofitlaughing/retrofitlaughing.iml" filepath="$PROJECT_DIR$/retrofitlaughing/retrofitlaughing.iml" />
+    </modules>
+  </component>
+</project>
